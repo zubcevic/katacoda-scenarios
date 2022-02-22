@@ -28,7 +28,7 @@
     }
   },
   "environment": {
-    "showdashboards":true,
+    "showdashboard":true,
     "dashboards": [
       {
         "name": "WebGoat",
