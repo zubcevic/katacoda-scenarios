@@ -13,3 +13,6 @@ Inspect the logs:
 Wait until you see the message:
 Undertow started on port(s) 8080 (http) with context path '/WebGoat'
 
+Open the WebGoat UI:
+
+    Browse the page: https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/WebGoat
