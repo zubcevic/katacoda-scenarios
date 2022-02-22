@@ -2,7 +2,8 @@
   "title": "WebGoat tutorial",
   "description": "Learning to set up a simple WebGoat environment",
   "difficulty": "Beginner",
-  "time": "3 minutes",
+  "time": "15 minutes",
+  "background":"background.sh",  
   "details": {
     "steps": [
       {
@@ -27,6 +28,17 @@
     }
   },
   "environment": {
+    "showdashboards":true,
+    "dashboards": [
+      {
+        "name": "WebGoat",
+        "port": 8080
+      },
+      {
+        "name": "WebWolf",
+        "port": 9090
+      }
+    ],
     "uilayout": "terminal"
   },
   "backend": {

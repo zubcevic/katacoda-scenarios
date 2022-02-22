@@ -1,8 +1,6 @@
-# Heading for Step 3
+# Stopping the WebGoat container
 
-This is some text.
+Here is the normal stop and remove the container command:
 
-Here's a single line of runnable code:
-
-`printf 'Cello, world!\n\n'`{{execute}}
+`docker rm -f webgoat'`{{execute}}
 
