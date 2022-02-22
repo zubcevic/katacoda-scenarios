@@ -32,11 +32,13 @@
     "dashboards": [
       {
         "name": "WebGoat",
-        "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/WebGoat"
+        "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/WebGoat",
+        "port": 8080
       },
       {
         "name": "WebWolf",
-        "port": "https://[[HOST_SUBDOMAIN]]-9090-[[KATACODA_HOST]].environments.katacoda.com/WebWolf"
+        "href": "https://[[HOST_SUBDOMAIN]]-9090-[[KATACODA_HOST]].environments.katacoda.com/WebWolf",
+        "port": 9090
       }
     ],
     "uilayout": "terminal-iframe"
