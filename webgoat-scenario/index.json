@@ -32,14 +32,14 @@
     "dashboards": [
       {
         "name": "WebGoat",
-        "port": 8080
+        "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/WebGoat"
       },
       {
         "name": "WebWolf",
-        "port": 9090
+        "port": "https://[[HOST_SUBDOMAIN]]-9090-[[KATACODA_HOST]].environments.katacoda.com/WebWolf"
       }
     ],
-    "uilayout": "terminal"
+    "uilayout": "terminal-iframe"
   },
   "backend": {
     "imageid": "ubuntu:2004"
