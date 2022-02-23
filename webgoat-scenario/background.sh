@@ -1,3 +1,3 @@
 #/bin/bash
 
-apt install figlet
+docker pull webgoat/goatandwolf
