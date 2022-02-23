@@ -1,3 +1,3 @@
 #/bin/bash
 
-docker pull webgoat/goatandwolf
+#docker pull webgoat/goatandwolf
